@@ -74,7 +74,7 @@ select
     b.category_name
 from
     tbl_menu a
-left join tbl_category b on a.category_code;
+left join tbl_category b on a.category_code = b.category_code;
 
 /*
 RIGHT JOIN
