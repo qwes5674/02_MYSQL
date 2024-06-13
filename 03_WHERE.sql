@@ -128,7 +128,7 @@ from
     tbl_menu
 where
     orderable_status = 'Y' or
-    category_code = 12
+    category_code = 12;
 
 /*
 AND 와 OR 연산의 우선순의
